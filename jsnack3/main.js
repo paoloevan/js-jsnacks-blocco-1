@@ -8,6 +8,6 @@ let numberEl;
 
 for (let i = 1; i < 11; i++) {
     numberEl = Number(prompt('Inserisci numero ' + i));
-    totNumberEl += totNumberEl;
+    totNumberEl += numberEl;
 }
 console.log(totNumberEl);
