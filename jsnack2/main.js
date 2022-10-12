@@ -7,11 +7,11 @@ const firstWorld = prompt('Inserisci prima parola')
 const secondWorld = prompt('Inserisci seconda parola')
 
 if (firstWorld.length > secondWorld.length) {
-    console.log(firstWorld);
     console.log(secondWorld);
+    console.log(firstWorld);
 } else if (firstWorld.length < secondWorld.length) {
-    console.log(secondWorld);
     console.log(firstWorld);
+    console.log(secondWorld);
 } else {
     console.log('le parole sono lunghe uguali');
 }
