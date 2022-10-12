@@ -9,11 +9,9 @@ let maggiore
 
 if (numberOne > numberTwo) {
     maggiore = numberOne;
-} else if (numberTwo > numberOne){
-     {
-        maggiore = numberTwo;
-    }
-} else {
+} else if (numberTwo > numberOne) {
+    maggiore = numberTwo;
+}else{
     maggiore = 'Valori uguali'
 }
 
