@@ -19,15 +19,17 @@ const userName = prompt('Come ti chiami?')
 //se lo trovo tra la lista, interrompo il ciclo
 
 let i = 0;
-let resultEl
+let resultEl = 0;
 
 while (i < guestList.length) {
     if (userName == guestList[i]){
-        resultEl = 'Puoi entrare';
-    } else {
-        resultEl = 'Non puoi entrare';
+        resultEl = 1
     }
     
     i++;
 }
-console.log(resultEl);
+if (resultEl >= 1) {
+    console.log('puoi entrare');
+} else {
+    console.log('non puoi entrare');
+}
